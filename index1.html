@@ -12,6 +12,7 @@
             color: white; /* Color de texto blanco para mejor contraste */
             margin: 0;
             padding: 20px;
+            padding-bottom: 70px; /* Espacio para que no se superponga el enlace */
         }
 
         h1 {
@@ -51,6 +52,24 @@
             cursor: pointer;
             color: #6A1B9A; /* Lila oscuro */
         }
+
+        a {
+            font-size: 1.2em;
+            color: #000000;
+            text-decoration: none;
+            position: fixed; /* Mantiene el enlace fijo en la pantalla */
+            bottom: 20px; /* Espaciado desde la parte inferior */
+            left: 20px; /* Espaciado desde la izquierda */
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo claro para el enlace */
+            padding: 10px; /* Espaciado alrededor del texto */
+            border-radius: 5px; /* Bordes redondeados */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+        }
+
+        a:hover {
+            color: #000000;
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -77,5 +96,6 @@
         <li>Love Shot - EXO</li>
         <li>Te Dejo Entrar - Ventino</li>
     </ul>
+    <a href="index2.html">Ir a las imágenes</a>
 </body>
 </html>
