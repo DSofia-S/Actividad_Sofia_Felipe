@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo imágenes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; /* Eliminamos el margen del body */
+            padding: 0;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px;
+        }
+
+        figure {
+            margin: 0;
+            text-align: center;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover; 
+            border: 2px solid #34495e;
+            border-radius: 8px;
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-size: 1.1em;
+            color: #7f8c8d;
+        }
+
+        a {
+            font-size: 1.2em;
+            color: #000000;
+            text-decoration: none;
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+        }
+
+        a:hover {
+            color: #000000;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+
+        <figure>
+            <img src="img/Imagen1.jpeg" alt="Imagen1">
+            <figcaption>blackpink</figcaption>
+        </figure>
+        <figure>
+            <img src="img/Imagen2.jpeg" alt="Imagen2">
+            <figcaption>BTS</figcaption>
+        </figure>
+        <figure>
+            <img src="img/Imagen3.jpeg" alt="Imagen3">
+            <figcaption>Albbum Hombre G</figcaption>
+        </figure>
+        <figure>
+            <img src="img/Imagen4.jpeg" alt="Imagen4">
+            <figcaption>LiSA</figcaption>
+        </figure>
+    </div>
+
+    <a href="index1.html">Ir al listado</a>
+
+</body>
+</html>
